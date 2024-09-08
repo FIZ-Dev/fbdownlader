@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Ganti dengan URL gambar */
+    background-size: cover; /* Agar gambar memenuhi seluruh layar */
+    background-position: center; /* Agar gambar selalu berada di tengah */
+    background-repeat: no-repeat; /* Agar gambar tidak terulang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 400px;
+}
+
+h1 {
+    color: #3b5998;
+}
+
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d4373;
+}
+
+#result {
+    margin-top: 20px;
+}
